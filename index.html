@@ -3,31 +3,51 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>Title</title>
+
+    <title>Elsa Sanchez</title>
+    <meta property="og:title" content="Elsa Sanchez" />
+    <meta property="og:description" content="Diseñadora / Ilustradora" />
+    <meta property="og:image" content="/img/share-image.png" />
+
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="css/theme/black.css" />
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="plugin/highlight/monokai.css" />
 
-    <!-- Custom styling and tweaks -->
-    <link rel="stylesheet" href="out/revealjs-starter.css" />
-
     <script src="js/reveal.js"></script>
     <!-- Plugins -->
-    <script src="plugin/markdown/markdown.js"></script>
-    <script src="plugin/notes/notes.js"></script>
-    <script src="plugin/highlight/highlight.js"></script>
+    <!-- <script src="plugin/markdown/markdown.js"></script> -->
+    <!-- <script src="plugin/notes/notes.js"></script> -->
+    <!-- <script src="plugin/highlight/highlight.js"></script> -->
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
         <section>
-          <h2>{{title}}</h2>
-          <aside class="notes"></aside>
+          <img style="margin: 0 auto;border-radius: 20%;" src="img/logo.jpg">
         </section>
-        <section data-markdown="index.md"></section>
+        <section data-background-image="img/mila_1.jpg">
+          <h2>Slide 1</h2>
+        </section>
+        <section data-background-image="img/mila_2.jpg">
+          <h2>Slide 2</h2>
+        </section>
+        <section data-background-image="img/mila_3.jpg">
+          <h2>Slide 3</h2>
+        </section>
+        <section>
+          <h2 style="margin-bottom:20%">Contact</h2>
+          <blockquote>contact@elsaestudio.com</blockquote>
+          <div>
+            <a target="_blank" class="symbol" title="email" href="">elsy.estudio@gmail.com</a>
+          </div>
+          <div>
+            <a target="_blank" class="symbol" title="instagram" href="">@elsa_estudio</a>
+          </div>
+        </section>
       </div>
     </div>
     <script>
@@ -39,9 +59,9 @@
       });
       Reveal.initialize({
         hash: true,
-        transition: "none",
+        transition: "slide",
         history: "true",
-        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+        plugins: [], // [RevealMarkdown, RevealHighlight, RevealNotes],
       });
     </script>
   </body>
