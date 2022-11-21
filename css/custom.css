@@ -30,3 +30,13 @@ a.symbol:before {
   margin-right: 0.3em;
   font-size: 130%;
 }
+
+section:not(:first-child):not(:last-child) {
+  background: #5558 !important;
+  border-radius: 4px;
+  bottom: 0 !important;
+  left: 0 !important;
+  display: block !important;
+  height: 16.8% !important;
+  top: 85% !important;
+}
