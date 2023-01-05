@@ -32,7 +32,7 @@ a.symbol:before {
 }
 
 section:not(:first-child):not(:last-child) {
-  background: #5558 !important;
+  /* background: #5558 !important; */
   border-radius: 4px;
   bottom: 0 !important;
   left: 0 !important;
